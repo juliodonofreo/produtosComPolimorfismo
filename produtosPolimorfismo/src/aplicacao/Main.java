@@ -53,5 +53,7 @@ public class Main {
         for(Produto produto: produtos) {
             System.out.println(produto.etiquetaPreco());
         }
+        
+        sc.close();
     }
 }
